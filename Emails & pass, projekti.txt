@@ -1,0 +1,16 @@
+ADMIN
+
+Email: admin
+Pass: admin123
+
+-----------------------------------------------
+USERS
+
+Email: alteomihali3@gmail.com
+Pass: Alteo97.
+
+Email: paolatrey@gmail.com
+Pass: paola123
+
+Email: bookshop2122@gmail.com
+Pass: Bookshop123.
