@@ -7,7 +7,7 @@ Pass: admin123
 USERS
 
 Email: alteomihali3@gmail.com
-Pass: Alteo97.
+Pass: Alteo123.
 
 Email: paolatrey@gmail.com
 Pass: paola123
