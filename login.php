@@ -26,7 +26,7 @@
                 <div class="form-group d-flex justify-content-between">
                     <p>
                     <a href="javascript:void()" id="create_account">Create Account</a><br>
-                    <a href="./forgot_password.php">I forgot my password</a></p>      <!-- forgot_password.html -->
+                    <a href="./forgot_password.php">I forgot my password</a></p>
                     <p><a href="./admin/login.php" target="_blank">Are you an Admin?</a></p>
                     <button class="btn btn-primary btn-flat">Login</button>
                 </div>
