@@ -58,8 +58,8 @@ paypal.Button.render({
  
         //app's client id's
 	client: {
-        sandbox:    'AdDNu0ZwC3bqzdjiiQlmQ4BRJsOarwyMVD_L4YQPrQm4ASuBg4bV5ZoH-uveg8K_l9JLCmipuiKt4fxn',
-        //production: 'AaBHKJFEej4V6yaArjzSx9cuf-UYesQYKqynQVCdBlKuZKawDDzFyuQdidPOBSGEhWaNQnnvfzuFB9SM'
+        sandbox: 'Ae76zcwWel5aObeSbyOkmEUNaYrCbGlrbkcF5YJhOtGmplKJKrKMFDNa_BtuCyx18S40Wi6GTPBHRz0T',
+       // production: 'AaBHKJFEej4V6yaArjzSx9cuf-UYesQYKqynQVCdBlKuZKawDDzFyuQdidPOBSGEhWaNQnnvfzuFB9SM'
     },
  
     commit: true, // Show a 'Pay Now' button
@@ -123,13 +123,13 @@ $(function(){
             },
             success:function(resp){
                 if(!!resp.status && resp.status == 'success'){
-                    alert_toast("Order Successfully placed.","success")
+                    alert_toast("Order Successfully placed","success")
                     setTimeout(function(){
                         location.replace('./')
                     },2000)
                 }else{
                     console.log(resp)
-                    alert_toast("an error occured","error")
+                    alert_toast("an error occurred","error")
                     end_loader();
                 }
             }
